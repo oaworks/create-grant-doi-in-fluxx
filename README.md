@@ -2,11 +2,13 @@
 
 Minting Crossref Grant DOIs via Fluxx Workflow Button
 
+
 # Description
 
 This code script enables Fluxx clients to create a Crossref Grant DOI by the click of a button, without leaving the Fluxx dashboard.  In particular, this is a workflow button on the Grant Request model, with a custom Ruby code script inserted in the "Before Validation" code block of a chosen workflow state.  The function is shown in the following 50-second video.
 
-XXX EMBED TEASER XXX
+https://github.com/oaworks/create-grant-doi-in-fluxx/assets/166541311/814bb1bf-f787-4cae-8415-b47a7e0cdb55
+
 
 # Context
 
@@ -15,6 +17,7 @@ Many funders use [Fluxx Grantmaker](https://www.fluxx.io) (Fluxx) as their Grant
 Crossref provides an overview of the process and requirements [here](https://www.crossref.org/documentation/research-nexus/grants/).  They offer several methods of uploading the metadata required for a grant DOI, including an [online grant registration form](https://www.crossref.org/documentation/register-maintain-records/grant-registration-form/) and [direct XML deposit](https://www.crossref.org/documentation/register-maintain-records/direct-deposit-xml/).  For the latter, a markup guide can be found [here](https://www.crossref.org/documentation/schema-library/markup-guide-record-types/grants/).  
 
 The code written in this project offers another method, which allows Fluxx clients to mint a grant DOI with Crossref by the click of a button in a typical Fluxx dashboard.  
+
 
 # Getting Started / Dependencies
 
@@ -38,17 +41,19 @@ You may edit this convention in the code, of course.  But whatever convention yo
 
 A walk-through of the code script is embedded below.  
 
-XXX EMBED 'CODE TOUR' VIDEO XXX
+https://github.com/oaworks/create-grant-doi-in-fluxx/assets/166541311/acac19aa-679c-4a92-bafe-93b40ebcf955
+
 
 # Testing & Installing
 
 When the code script has been customized with the Fluxx user's Crossref credentials and back-end names, the code can be dropped in the 'Before Validation' code block of the workflow state in which the DOI should be created.  This process is demonstrated in the attached 'Demo' video, embedded below.
 
-XXX EMBED 'DEMO' VIDEO XXX
+https://github.com/oaworks/create-grant-doi-in-fluxx/assets/166541311/94764b69-0a4f-4f95-90c8-02353baea28f
 
 Before installation in a Fluxx 'production' admin panel, it is recommended that the code first be tested in a Fluxx 'pre-production' environment.  Similarly, the code can also be tested in Crossref's [test site](https://www.crossref.org/documentation/register-maintain-records/direct-deposit-xml/testing-your-xml/) before being redirected to Crossref's live site.  The test site is demonstrated in the 'Demo' video above.  When the Fluxx client is ready to redirect the XML file to Crossref's live site, the code script comments explain the one change necessary. 
 
 To check for errors on Fluxx's side, the code can be triggered by entering a Grant Request record ID into the "Test Before Validation Block" field, directly below where the code is pasted in the Admin Panel.  To check for errors on Crossref's side, simply visit your personal "Submission Administration" page.  Once the code has passed initial testing, errors can be monitored ongoingly by reading the confirmation messages sent by Crossref.  These emails typically arrive within a few hours of running the code script, and sometimes arrive within just a few minutes.
+
 
 # Executing Program
 
@@ -56,17 +61,21 @@ When the code script has been dropped in the "Before Validation" code block for 
 
 When the code runs successfully, a confirmation message is saved in the Fluxx client's predetermined field of the Grant Request form.  Similarly, if the code runs unsuccessfully, an error message will be saved to the same predetermined field in the Grant Request form.  This is also mentioned in the code comments, and also in each embedded video.
 
+
 # Authors
 
 This project was directed by Syman Stevens of Co-Creative Consulting, LLC.  The primary code author was Stephen Brandon of [Brandon IT Consulting](https://brandonitconsulting.co.uk). 
+
 
 # Acknowledgments
 
 This project was funded by [OA.Works](https://oa.works), a non-profit project building tools so that open access is easy and equitable.  Thanks are due to Fluxx for providing access to the test environment shown in the demo, and also to Crossref for providing access to the test environment also shown in the demo.  
 
+
 # License
 
 This project is licensed under an MIT License.  See the LICENSE.md file for details.
+
 
 # Version History
 
