@@ -1,7 +1,6 @@
 # Project Title
 
-Minting Crossref Grant DOIs via Fluxx Workflow Button
-
+Creating Crossref Grant DOIs via Fluxx Workflow Button
 
 # Description
 
