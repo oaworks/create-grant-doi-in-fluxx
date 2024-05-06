@@ -11,12 +11,11 @@ https://github.com/oaworks/create-grant-doi-in-fluxx/assets/166541311/814bb1bf-f
 
 # Context
 
-Many funders use [Fluxx Grantmaker](https://www.fluxx.io) (Fluxx) as their Grant Management System (GMS).  Many funders also use Crossref to mint [Digital Object Identifiers](https://www.doi.org) (DOIs) for their grants.  This practice comes with several benefits, described for instance [here](https://www.crossref.org/community/grants/) and [here](https://osf.io/pv96e).  
+Many funders use [Fluxx Grantmaker](https://www.fluxx.io) (Fluxx) as their Grant Management System (GMS).  Many funders also use Crossref to create [Digital Object Identifiers](https://www.doi.org) (DOIs) for their grants.  This practice comes with several benefits, described for instance [here](https://www.crossref.org/community/grants/) and [here](https://osf.io/pv96e).  
 
 Crossref provides an overview of the process and requirements [here](https://www.crossref.org/documentation/research-nexus/grants/).  They offer several methods of uploading the metadata required for a grant DOI, including an [online grant registration form](https://www.crossref.org/documentation/register-maintain-records/grant-registration-form/) and [direct XML deposit](https://www.crossref.org/documentation/register-maintain-records/direct-deposit-xml/).  For the latter, a markup guide can be found [here](https://www.crossref.org/documentation/schema-library/markup-guide-record-types/grants/).  
 
-The code written in this project offers another method, which allows Fluxx clients to mint a grant DOI with Crossref by the click of a button in a typical Fluxx dashboard.  
-
+The code written in this project offers another method, which allows Fluxx clients to create a grant DOI with Crossref by the click of a button in a typical Fluxx dashboard.  
 
 # Getting Started / Dependencies
 
